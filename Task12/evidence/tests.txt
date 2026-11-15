@@ -1,0 +1,8 @@
+e-bike flat | expected=15 | observed=15
+van at 09:00 | expected=60 | observed=60
+van at 17:00 | expected=30 | observed=30
+van crossing 17:00 | expected=90 | observed=90
+valid one-day pass | expected=0 | observed=0
+expired one-day pass | expected=30 | observed=30
+last regular floor on jagged grid | expected=4 | observed=4
+last regular slot on jagged grid | expected=4 | observed=4
