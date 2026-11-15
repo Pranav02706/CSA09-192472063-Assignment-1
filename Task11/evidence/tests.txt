@@ -1,0 +1,31 @@
+1x20 last regular floor | expected=0 | observed=0
+1x20 last regular slot | expected=18 | observed=18
+regular pool full | expected=IllegalStateException | observed=IllegalStateException
+last charging floor | expected=0 | observed=0
+last charging slot | expected=19 | observed=19
+charging pool full | expected=IllegalStateException | observed=IllegalStateException
+3x50 last regular floor | expected=2 | observed=2
+3x50 last regular slot | expected=48 | observed=48
+regular pool full | expected=IllegalStateException | observed=IllegalStateException
+last charging floor | expected=2 | observed=2
+last charging slot | expected=49 | observed=49
+charging pool full | expected=IllegalStateException | observed=IllegalStateException
+5x100 last regular floor | expected=4 | observed=4
+5x100 last regular slot | expected=98 | observed=98
+regular pool full | expected=IllegalStateException | observed=IllegalStateException
+last charging floor | expected=4 | observed=4
+last charging slot | expected=99 | observed=99
+charging pool full | expected=IllegalStateException | observed=IllegalStateException
+duplicate registration | expected=IllegalArgumentException | observed=IllegalArgumentException
+unknown vehicle type | expected=IllegalArgumentException | observed=IllegalArgumentException
+out-of-bounds exit | expected=IllegalArgumentException | observed=IllegalArgumentException
+wrong ticket | expected=IllegalArgumentException | observed=IllegalArgumentException
+exit before entry | expected=IllegalArgumentException | observed=IllegalArgumentException
+one-hour car | expected=30 | observed=30
+61-minute bike | expected=20 | observed=20
+EV with 10 kWh | expected=210 | observed=210
+eligible monthly pass | expected=0 | observed=0
+zero duration | expected=0 | observed=0
+double release | expected=IllegalArgumentException | observed=IllegalArgumentException
+manual daily collection | expected=260 | observed=260
+unique ID across gates | expected=1 | observed=1
